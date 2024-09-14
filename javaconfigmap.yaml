@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: javacm
+  namespace: test
+spec:
+  data:
+    port_num: 8080
+    port_name: 
