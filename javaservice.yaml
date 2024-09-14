@@ -4,7 +4,7 @@ metadata:
   name: javasvc
   namespace: test
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     matchLabel:
       app: javaapp
